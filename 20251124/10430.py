@@ -1,0 +1,6 @@
+a_1, a_2, a_3 = input()
+b_1, b_2, b_3 = input()
+print(int(a_1 + a_2 + a_3) * int(b_3))
+print(int(a_1 + a_2 + a_3) * int(b_2))
+print(int(a_1 + a_2 + a_3) * int(b_1))
+print(int(a_1 + a_2 + a_3) * int(b_1 + b_2 + b_3))
